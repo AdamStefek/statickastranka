@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christopher Nolan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body id="home">
+    <nav id="navbar">
+      <div id="logo">
+        <a href="index.html">
+          <i class="fa-solid fa-video"></i>
+          Christopher Nolan
+          <span class="text-cervena">Geniální režisér</span>
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a href="#home"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li><a href="#who">O režisérovi</a></li>
+        <li><a href="#Filmy">Filmy</a></li>
+        <li><a href="#zdroje">Zdroje</a></li>
+        <li><a href="form.html">Formulář</a></li>
+      </ul>
+    </nav>
+    <div id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">Režisér</h1>
+        <p class="lead">Informace o geniálním režisérovy sci-fi filmů</p>
+        <p class="lead"></p>
+        <a href="#dilo" class="btn"> Dozvědět se víc</a>
+      </div>
+    </div>
+    <section id="what" class="bg-light py1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="filmy-text">O režisérovi</span>
+        </h2>
+        <div class="items">
+          <div class="item">
+            <i class="fa-solid fa-timeline"></i>
+            <div>
+              <h3>Ocenění</h3>
+              <p>
+                Ocenění Empire Award za najlepší film <br />Empire Award za
+                najlepší režii <br />Český lev za nejlepší zahraniční film
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-film"></i>
+            <div>
+              <h3>Seznam známých filmů</h3>
+              <p>
+                Batman začíná
+                <br />Dokonalý trik <br />Temný rytíř <br />Temný rytíř povstal
+                <br />Interstellar <br />Dunkerk <br />Tenet <br />Oppenheimer
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-clapperboard"></i>
+            <div>
+              <h3>Nejoblíbenější herci</h3>
+              <p>
+                Cilian Murphy, Christian Bale, Matt Dixon <br />
+                Robert Downey Jr., Michael Cane
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="filmy-text">
+        <span class="filmy-text">Filmy</span>
+      </h2>
+      <section id="Filmy">
+        <div class="filmy-img"></div>
+        <div class="Filmy-text"></div>
+      </section>
+      <table class="container">
+        <thead>
+          <tr>
+            <th colspan="3" class="nadpis">Výdělky filmů</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>&nbsp;název filmu</th>
+            <th>&nbsp;USA</th>
+            <th>&nbsp;Celosvětově</th>
+          </tr>
+          <tr>
+            <th>&nbsp;Following&nbsp;</th>
+            <td>&nbsp;$48,482</td>
+            <td>&nbsp;$240,495</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Memento</th>
+            <td>&nbsp;$25,544,867</td>
+            <td>&nbsp;$39,719,431</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Film Noir: Bringing Darkness Into Light</th>
+            <td>&nbsp;$5,584,667</td>
+            <td>&nbsp;$9,419,231</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Batman begins</th>
+            <td>&nbsp;$205,547,248</td>
+            <td>&nbsp;$371,852,546</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Dokonalý trik</th>
+            <td>&nbsp;$53,089,891</td>
+            <td>&nbsp;$104,407,366</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Temný rytíř</th>
+            <td>&nbsp;$533,720,947</td>
+            <td>&nbsp;$998,725,484</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Inception</th>
+            <td>&nbsp;$292,576,195</td>
+            <td>&nbsp;$825,793,570</td>
+          </tr>
+          <tr>
+            <th>&nbsp;The Dark Knight Rises</th>
+            <td>&nbsp;$377,722,486</td>
+            <td>&nbsp;$1,082,254,158</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Interstellar</th>
+            <td>&nbsp;$490,547,265</td>
+            <td>&nbsp;$678,548,260</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Dunkerk</th>
+            <td>&nbsp;$188,254,158</td>
+            <td>&nbsp;$525,187,125</td>
+          </tr>
+          <tr>
+            <th>&nbsp;Tenet</th>
+            <td>&nbsp;$58.545,267</td>
+            <td>&nbsp;$363.725,478</td>
+          </tr>
+            <tr>
+              <th>&nbsp;Oppenheimer</th>
+              <td>&nbsp;$310,158,485</td>
+              <td>&nbsp;$853.245,846</td>
+            </tr>
+          </tbody>
+        </table>
+        <section id="who">
+          <div class="who-img"></div>
+          <div class="who-text bg-dark p-2">
+            <h2 class="m-heading">
+              <span class="ziv-text">Životopis</span>
+            </h2>
+            <p class="text-ziv">
+              Filmy točil již od dětství, když vzal poprvé do ruky otcovu
+              osmimilimetrovou kameru. V roce 1996 se na filmovém festivalu v
+              Cambridge promítal jeho krátký film Larceny. Prvním větším úspěchem
+              byl krátký film Doodlebug. Jeho první celovečerní dílo Sledování,
+              které bylo natočeno podle jeho scénáře, získalo v roce 1998 cenu za
+              nejlepší režii na Newport International Film Festivalu, stříbrnou
+              Hitchcockovu cenu na the Dinard British Film Festivalu a the Black
+              and White Award na Slamdance International Film Festivalu. Po tomto
+              úspěchu natočil další zlomové filmy své kariéry Memento a Insomnie.
+            </p>
+            <h3 class="head3">Základní informace</h3>
+            <ul class="list">
+              <li>Datum narození: 30. července 1970</li>
+              <li>Místo narození: Londýn</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="container" id="zdroje">
+        <h1>Zdroje</h1>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="https://unsplash.com/@historyhd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">History in HD</li></a> 
+          <li class="list-group-item"><a href="https://unsplash.com/photos/e5eDHbmHprg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</li></a>
+          <li class="list-group-item"><a href="https://cs.wikipedia.org/wiki/Christopher_Nolan">Wikipedie Christopher Nolan</li></a>
+          <li class="list-group-item"><a href="https://www.biography.com/movies-tv/christopher-nolan">Fotka</li></a>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="copy-width">
+      <p>Copyright &copy; 2023, Oa Opava</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
